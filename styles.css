@@ -1,0 +1,212 @@
+body{
+  background-color: #000000;
+}
+.large-3 img{
+  margin-top: -20px;
+  height: 60px;
+  width: 400px;
+}
+#slider h1,h6{
+  text-align: center;
+  color: #F8f8f8;
+}
+#golf img{
+  margin-left: 15px;
+}
+#golf h4, p{
+  text-align: center;
+  color: #F8f8f8;
+
+}
+#celeb img{
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+#celeb h4{
+  text-align: center;
+  color: #F8f8f8;
+
+}
+#dance img{
+  padding-bottom: 15px;
+}
+#dance h4{
+  text-align: center;
+  color: #F8f8f8;
+}
+.active-section{
+  display: inline-block;
+  margin-left: 15.2%;
+  /*height: 350px;*/
+  /*width: 100%;*/
+  /*background-color: yellow;*/
+  /*align-items: center;*/
+}
+section{
+  display: none;
+}
+
+.fancy.button {
+  background-color: #fff;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFEFEFEF');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(73%, #f7f7f7), color-stop(100%, #efefef));
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #f7f7f7 73%, #efefef 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 73%, #efefef 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #f7f7f7 73%, #efefef 100%);
+  background-image: linear-gradient(top, #ffffff 0%, #f7f7f7 73%, #efefef 100%);
+  border: 1px solid rgba(52, 73, 94, 0.2);
+  /*color: rgba(52, 152, 219, 0.7);*/
+  color: red;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  width: 100%;
+}
+.fancy.button:hover {
+  color: #3498db;
+  background-color: #fff;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFEDEDED');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(73%, #efefef), color-stop(100%, #ededed));
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #efefef 73%, #ededed 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #efefef 73%, #ededed 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #efefef 73%, #ededed 100%);
+  background-image: linear-gradient(top, #ffffff 0%, #efefef 73%, #ededed 100%);
+  border-color: rgba(52, 73, 94, 0.3);
+  -webkit-box-shadow: 0px 0px 6px rgba(52, 73, 94, 0.1);
+  -moz-box-shadow: 0px 0px 6px rgba(52, 73, 94, 0.1);
+  box-shadow: 0px 0px 6px rgba(52, 73, 94, 0.1);
+}
+.fancy.button:active {
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
+}
+.large-6 p{
+  margin-left: -175px;
+}
+.large-9 p{
+  text-align: left;
+}
+.button-group {
+    position: relative;
+    display: inline-block;
+    margin: 1rem, 10; }
+    .button-group:before {
+      content: attr(data-grouptype);
+      z-index: 99999;
+      color: #999;
+      display: block;
+      font-size: 1rem;
+      padding: 0.25em;
+      border-radius: 50%;
+      background: #fff;
+      position: absolute;
+      left: 42.5%;
+      top: 0.35rem; }
+    .button-group button + button {
+      margin-left: 5px;
+}
+#golfInfo p{
+  text-align: left;
+  margin-left: 24px;
+
+}
+#golfInfo form{
+  margin-top: 40px;
+  margin-left: 20px;
+}
+#golfScore p{
+  padding-top: 40px;
+  padding-left: 60px;
+  text-align: center;
+}
+/*.tic1{
+  width: 98%;
+}
+tr{
+  margin: 5px, 5px, 5px, 20px;
+  border-radius: 2px solid blue;
+  background-color: yellow;
+}
+td{
+  width: 25%;
+  margin: 5px, 5px, 5px, 5px;
+  padding: 5px, 5px, 5px, 5px;
+}*/
+
+table{
+  width: 80%;
+  margin-left: 10%;
+  border: 2px solid red;
+  padding: 2px;
+  font-size: 40px;
+}
+tbody{
+  font-size: 25px;
+}
+tr{
+    margin: 5px, 5px, 5px, 20px;
+    border-radius: 2px solid blue;
+    /*background-color: yellow;*/
+}
+td{
+  margin: 5px, 5px, 5px, 5px;
+  border: 2px solid blue;
+  height: 150px;
+  /*background-color: orange;*/
+}
+td:hover{
+      background-color: #3498db;
+}
+table tr td{
+  font-size: 40px;
+  text-align: center;
+  color: green;
+}
+#prompt{
+  font-size: 40px;
+  color: red;
+  text-align: center;
+}
+/*include-html-table-classes: $include-html-classes;
+
+// These control the background color for the table and even rows
+table-bg: $white;
+table-even-row-bg: $snow;
+
+// These control the table cell border style
+table-border-style: solid;
+$table-border-size: 1px;
+$table-border-color: $gainsboro;
+
+// These control the table head styles
+$table-head-bg: $white-smoke;
+$table-head-font-size: rem-calc(14);
+$table-head-font-color: $jet;
+$table-head-font-weight: $font-weight-bold;
+$table-head-padding: rem-calc(8 10 10);
+
+// These control the table foot styles
+$table-foot-bg: $table-head-bg;
+$table-foot-font-size: $table-head-font-size;
+$table-foot-font-color: $table-head-font-color;
+$table-foot-font-weight: $table-head-font-weight;
+$table-foot-padding: $table-head-padding;
+
+// These control the caption
+$table-caption-bg: transparent;
+$table-caption-font-color: $table-head-font-color;
+$table-caption-font-size: rem-calc(16);
+$table-caption-font-weight: bold;
+
+// These control the row padding and font styles
+$table-row-padding: rem-calc(9 10);
+$table-row-font-size: rem-calc(14);
+$table-row-font-color: $jet;
+$table-line-height: rem-calc(18);
+
+// These are for controlling the display and margin of tables
+$table-display: table-cell;
+$table-margin-bottom: rem-calc(20);*/
