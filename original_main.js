@@ -1,3 +1,6 @@
+//This is the original game attempt
+
+
 //THIS IS A GAME ABOUT A NON-PROFIT WHOSE PURPOSE IS TO
 //RAISE MONEY TO COMBAT WORLD HUNGER!
 
@@ -11,6 +14,7 @@
 var clickedSection = "";
 var userData = "";
 // var playerName = document.getElementById("donorName").val;
+//form data is not coming through and is a key component to this game working
 // console.log(playerName);
 
 $(document).ready(function () {
@@ -27,6 +31,7 @@ $('.button').on('click',function (event){
       $('#golfSection').addClass('active-section');
     } else if(clickedSection === '.startGame'){
       // playerName = document.getElementsByName("donorName").val;
+      //need the donor name from the form
       // console.log(playerName);
 
         // donorName = document.getElementById('#donorName');
